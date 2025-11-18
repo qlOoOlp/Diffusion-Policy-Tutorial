@@ -3,6 +3,13 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+#
+data/
+*.ckpt
+outputs/
+notebooks/
+rollout/
+
 # C extensions
 *.so
 

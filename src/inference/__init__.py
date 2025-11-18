@@ -1,0 +1,1 @@
+from .pusht_inference import run_pusht_inference

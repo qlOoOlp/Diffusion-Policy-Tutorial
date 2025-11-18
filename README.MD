@@ -9,13 +9,13 @@ This repository provides a simple tutorial and demo implementation of Diffusion 
 ## Environment Setup  
 ```bash
 git clone https://github.com/qlOoOlp/Diffusion-Policy-Tutorial.git
-cd <your-repo-folder>
+cd Diffusion-Policy-Tutorial
 
 conda create -y -n dp_tutorial python=3.9
 conda activate dp_tutorial
 
 # Install torch (CUDA 버전에 맞게)
-pip install torch==2.3.1 torchvision==0.18.1 --index-url https://download.pytorch.org/whl/cu121
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 
 # Install other dependencies
 pip install -r requirements.txt
@@ -23,10 +23,24 @@ pip install -r requirements.txt
 
 ---
 
-## Data Download
-
+## Load Datasets
+```bash
+python scripts/load_dataset.py
+```
 
 ## Training
+### Training your own policy
+```bash
+python scripts/train_pusht.py
+```
+### OR download pretrained ckpt
+- The pretrained checkpoint used in this tutorial is directly downloaded from the official Diffusion Policy GitHub repository [real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy).
+```bash
+python scripts/load_ckpt.py
+```
 
 ## Rollout / Demo
-
+### Inference Policy
+```bash
+python scripts/infer_pusht.py
+```
