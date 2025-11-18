@@ -1,0 +1,25 @@
+# Diffusion Policy / PushT 환경 구성에 필요한 패키지
+numpy==1.26.4
+tqdm==4.66.4
+
+# --- Diffusion / Transformers ---
+diffusers==0.30.0
+transformers==4.43.2
+accelerate==0.31.0
+
+# --- PushT 환경 ---
+pygame==2.5.2
+pymunk==6.7.0
+shapely==2.0.4
+opencv-python==4.10.0.84
+
+# --- Dataset / I/O ---
+zarr==2.16.1
+gdown==5.2.0
+scikit-image==0.24.0
+imageio==2.34.0
+imageio-ffmpeg==0.4.9
+scikit-video==1.1.11
+
+# --- Visualization ---
+matplotlib==3.9.1
