@@ -5,6 +5,17 @@ This repository provides a simple tutorial and demo implementation of Diffusion 
 (This tutorial references the original paper and code from [real-stanford/diffusion_policy](https://github.com/real-stanford/diffusion_policy).)
 
 ---
+## Lectures
+### Lecture videos
+- [Lecture1](https://youtu.be/tHYzpUsa0nU)
+- [Lecture2](https://youtu.be/ClgAxyvYDQc)
+- [Lecture3](https://youtu.be/O3mPsjAPtQI)
+
+### Lecture Notes
+- [Lecture1](https://docs.google.com/presentation/d/1Gqo6hmNFLDertuDNCNTsSKS5B5bLqyRZ/edit?usp=sharing&ouid=114520448462165300564&rtpof=true&sd=true)
+- [Lecture2](https://docs.google.com/presentation/d/1jleqnQkOyYzhnW599SQsgwHl1DAfcFEk/edit?usp=sharing&ouid=114520448462165300564&rtpof=true&sd=true)
+- [Lecture3](https://docs.google.com/presentation/d/1Qf2XDt_D4p5Bg2_KjenvsRiedE6_NCrJ/edit?usp=sharing&ouid=114520448462165300564&rtpof=true&sd=true)
+---
 
 ## Project Structure
 A brief overview of the directory layout used in this tutorial:
